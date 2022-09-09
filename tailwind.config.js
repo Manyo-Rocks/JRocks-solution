@@ -10,7 +10,12 @@ module.exports = {
       },
       extend: {
         colors: {
-          
+
+        // background: "rgb(178,208,209)",
+        // //  background:linear-gradient(90deg, 
+        // //   rgba(178,208,209,0.9500175070028011) 11%,
+        // //    rgba(60,207,210,0.9500175070028011) 57%,
+        // //    rgba(244,238,238,1) 100%) 
         }
       },
     },
