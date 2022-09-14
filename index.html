@@ -9,18 +9,18 @@
     <title>JRocks solution</title>
 </head>
 <body>
-    <div class="container box-content mx-auto ">
+    <div class="">
     <header>
     <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
-        <nav class="flex items-center justify-between">
+        <nav class=" container flex items-center justify-center md:my-0 ">
             <!---nav logo-->
             <div class>
-                <img src="images/JRocks logo.png.png" width="100px" alt="JRocks logo">
+                <img src="images/JRocks logo.png.png" class="w-1/2 md:w-1/4" alt="JRocks logo">
             </div>
         
            <div class="navbars">
-               <ul class="flex space-x-4 text-lg p-4 font-serif ">
-                   <li class="hover:text-blue-600 ml-4">
+               <ul class=" flex space-x-4 text text-lg font-serif mx-auto text-center ">
+                   <li class="text-gray hover:text-blue-600 ml-4">
                       <a href="About.html">About</a>
                    </li>
                    <li class="hover:text-blue-600 ml-4">
@@ -37,9 +37,9 @@
                    <li class="hover:text-blue-600 ml-4">
                     <a href="products.html">products</a>
                    </li>
-                   <li class="">
+                   <li class="mx-8 ">
                       <a href="contact.html">
-                            <button class="ring-2 ring-blue-300 px-3  " > 
+                            <button class=" w-24 text-white rounded-full bg-blue-500 " > 
                                 contact-us
                             </button>
                         </a>
@@ -48,23 +48,125 @@
            </div>
         </nav>
     </header>
-    <div class=" bg-background">
+    <div class="home-page">
         <div class="first-view">
-            <div class="hover:opacity-50 relative">
-                <img src="images/first-view image.jpg" width="100%" height="400px" alt="company-staff">
+            <div class="relative">
+                <img src="images/first-view image.jpg" class="w-full max-h-148  opacity-25"  alt="company-staff">
             
-            <div class="absolute top-0 text-2xl">
-                <h2 >JRocks for all your Tech solutions.</h2>
-                <p></p>
+            <div class="absolute top-20 text-center p-8 m-auto  ">
+                <h2 class="text-6xl text-blue-500 ">Software Consulting & Development Company.
+                </h2>
+                <p class="px-4 my-4 break-words text-gray">leverage our ten(10) years expertise to create a solid software foundation for your business.
+                    Since 1989. 
+                </p>
+                <div class="btn m-8">
+                    <a href="./About.html"><button class="text-white rounded-full bg-blue-400 px-4 ">what we Offer
+
+                    </button></a>
+
+                </div>
             </div>
             </div>
         </div>
-        <div class="container">
-            <h2 class="">Products & Services</h2>
-            <div class="">
-                <div class="p">heloo momma</div>
+        <!-- ABOUT US -->
+        <section class="about-us  my-8">
+            <h1 class="text-3xl text-center text-blue-3000 ">
+                Who We Are
+            </h1>
+            <div class="who we are">
+                <p class="text-gray text2xl indent-8 p-8 leading-relaxed mx-auto text-center md:w-2/3">
+                        We enable progressive businesses to transform, scale and gain competitive advantage, 
+                        through  expert delivery of innovative, tailor-made software. We are a digital transformation
+                        consultancy and software development company that provides cutting edge engineering solutions,
+                        helping Fortune 500 companies and enterprise clients untangle complex issues that always emerge
+                        during their digital evolution journey. Since 2007 we have been a visionary and a reliable software
+                        engineering partner for world-class brands. 
+                </p>
             </div>
-        </div>
+            <div class="btn m-4 text-center">
+                <a href="./About.html">
+                    <button class="text-white rounded-full bg-blue-300  px-4 ">Read More..</button>
+                </a>
+            </div>
+            
+        </section>
+
+        <!---PRODUCTS AND SERVIICES-->
+        <section class="services m-8">
+            <h1 class="text-3xl text-gray text-blue-3000 px-4 mb-6">
+                Explore Our offering
+            </h1>
+            <div class=" flex flex-col space-y-8 md:flex-row md:space-x-8 md:space-y-8">
+                <div class=" flex flex-col  bg-darkblue p-8  items-center md:w-1/3 md:y-4">
+                    <img src="images/ecommerce-development.svg" class="w-1/4" alt="e-commerce">
+                    <a href="#" class="py-2 text-blue-300">eCommerce</a>
+                   <p class= "text-white ">consumer demand for online shopping is remarkably strong, so
+                       obtain a clean-coded and high-performing ecommerce solution.
+                   </p>
+                </div>
+                <div class="flex flex-col md:w-1/3 bg-darkblue p-8 items-center">
+                    <img src="images/icons8-smartphones-80.png" class="w-1/4" alt="phone">
+                    <h4 class="text-white">App development</h4>
+                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
+                        obtain a clean-coded and high-performing ecommerce solution.
+                    </p>
+                </div>
+                <div class="flex flex-col md:w-1/3 bg-darkblue p-8 items-center ">
+                    <img src="images/icons8-windows-10-personalization-16.png" class="w-1/4" alt="phone">
+                    <h4 class="text-white">ui/ux design</h4>
+                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
+                        obtain a clean-coded and high-performing ecommerce solution.
+                    </p>
+                </div>
+            </div>
+            <div class=" flex flex-col space-y-8 md:flex-row md:space-x-8 md:space-y-8">
+                      
+                  <div class="flex flex-col md:w-1/3 bg-darkblue p-8 items-center">
+                    <img src="images/icons8-intelligence-50.png" class="w-1/4" alt="phone">
+    
+                    <h4 class="text-white">Artificial intelligence</h4>
+                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
+                        obtain a clean-coded and high-performing ecommerce solution.
+                    </p>
+                 </div> 
+                  
+                <div class="flex flex-col md:w-1/3 bg-darkblue p-8 items-center">
+                    <img src="images/icons8-give-way-signpost-32.png" class="w-1/4" alt="phone">
+                   
+                    <h4 class="text-white">IT consulting/learning pathways</h4>
+                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
+                        obtain a clean-coded and high-performing ecommerce solution.
+                    </p>
+                </div>
+                <div class="flex flex-col md:w-1/3 bg-darkblue p-8 items-center">
+                    <img src="images/icons8-hr-manager-64.png" class="w-1/4" alt="phone">
+                    
+                    <h4 class="text-white">HR services</h4>
+                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
+                        obtain a clean-coded and high-performing ecommerce solution.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!------testimonial-->
+        <section class="container">
+            <h2 class="text-3xl text-gray">what Our Clients says </h2>
+             <div class="flex flex-col space-x-6   md:flex-row ">
+                 <div class="  shadow-2xl py-6 px-6 text-center w-1/3">
+                     <p class="mt-6">When we first contacted JRocks solutions, we needed expert advice on the creation of the centralized 
+                         analytical solution to achieve company-wide transparent analytics and reporting. </p>
+                 </div>
+                 <div class=" shadow-2xl  py-4 px-6 text-center w-1/3">
+                    <p class="mt-6">When we first contacted JRocks solutions, we needed expert advice on the creation of the centralized 
+                        analytical solution to achieve company-wide transparent analytics and reporting. </p>
+                </div>
+                <div class="shadow-2xl  py-4 px-6 text-center w-1/3">
+                    <p class="mt-6">When we first contacted JRocks solutions, we needed expert advice on the creation of the centralized 
+                        analytical solution to achieve company-wide transparrent analytics and reporting. </p>
+                </div>
+             </div>
+        </section>
     </div>
    </div> 
 </body>
