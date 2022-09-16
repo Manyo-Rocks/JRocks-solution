@@ -12,8 +12,10 @@ module.exports = {
         colors: {
           'gray':'#2c2d2c',
           'white': '#ffff',
-          'darkblue': '#1f8ade',
-          'yellow':'#e155e2',
+          'royalblue': '#1f8ade',
+          'gold': '#ddcf5c',
+           'ash':'#feebeb',
+           'navyblue':'#2b3c55'
         },
         maxHeight: {
           '128': '32rem',
