@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <metagge="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css" >
-    <!-- <link href="https://unpkg.com/tailwindcss^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    
     
     <title>JRocks solution</title>
 </head>
 <body>
     <div class="home-page-container">
     <header>
-    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
         <nav class=" container flex items-center justify-center md:my-0 ">
             <!---nav logo-->
             <div class>
@@ -20,6 +19,9 @@
         
            <div class="navbars">
                <ul class=" flex space-x-4 text text-lg font-serif mx-auto text-center ">
+                   <li class="text-gray hover:text-blue-600 ml-4">
+                    <a href="index.html">Home</a>
+                   </li>
                    <li class="text-gray hover:text-blue-600 ml-4">
                       <a href="About.html">About</a>
                    </li>
@@ -39,7 +41,7 @@
                    </li>
                    <li class="mx-8 ">
                       <a href="contact.html">
-                            <button class="w-full  text-white rounded-full bg-blue-500 px-4  " > 
+                            <button class="w-full text-white bg-blue-500 px-4 py-2 " > 
                                 contact-us
                             </button>
                         </a>
@@ -138,12 +140,12 @@
                 </div>
                 <div class="flex flex-col md:w-1/3 bg-royalblue p-8 items-center">
                     <img src="images/icons8-hr-manager-64.png" class="w-1/4" alt="phone">
-                    <a href="#" class="py-2 text-2xl text-gold hover:text-white font-bold ">Hiring Services</a>
-                    <p class="text-white">consumer demand for online shopping is remarkably strong, so
-                        obtain a clean-coded and high-performing ecommerce solution.
+                    <a href="./hiring.html" class="py-2 text-2xl text-gold hover:text-white font-bold ">Hiring Services</a>
+                    <p class="text-white">We are always in search for talented Developers to help meet our ever increasing clients base.
                     </p>
                 </div>
             </div>
+            npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
         </section>
         
         <!------testimonial-->

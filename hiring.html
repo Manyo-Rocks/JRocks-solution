@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <metagge="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css" >
+
+    
+    <title>JRocks solution</title>
+</head>
+<body>
+
+    <section class="hiring-form">
+        <div class="container hiring-wrapper mx-auto">
+            <div class="hiring-statement ">
+               <p class="text-center text-2xl my-8">We are always in need of talented developers, designers and product managers 
+                  to help build world class products for our clients 
+                </p>
+                <P class="text-center">If that person is you, then go ahead and fill this form with all the requested details</P>
+            </div>
+            <div class="form ">
+               <form class="my-10 p-8 w-3/4 shadow-2xl mx-auto ">
+                    <input type="text" id="fullname"  class="form-input rounded-full p-4 my-4 d-block w-full " placeholder="Full Name" required>
+                    <input type="email" id="email" class="form-input p-4 my-4  d-block w-full " placeholder="Email" required>
+                    <input type="text" id="phoneno" class="form-input d-block w-full p-4 my-4 " placeholder=" Phone number" required>
+                    <label for="track" class="text-blue-400 ">Select your track</label>
+                    <select name="track" id="track" form="trackform">
+                        <option value="frontend">frontend</option>
+                        <option value="backend">backend</option>
+                        <option value="design">Designer</option>
+                        <option value="audi">product manager</option>
+                        <option value="audi">Mobile </option>
+                    </select>
+                    <input type="url" id="link" class="form-input p-4 my-4  d-block w-full " placeholder="link to your portfolio or work" required>
+                    <label for="resume" class="text-blue-400"> Upload your Resume/CV below</label>
+                    <input type="file" id="resume" class="form-input p-4 my-4  d-block w-full " placeholder="resume/CV" required>
+                    <textarea class="form-input d-block w-full p-8" placeholder="why should we consider you?"></textarea>
+                   <div class="text-center mt-6">
+                    <button type="submit" class="text-white bg-blue-400 px-6 py-4 text-right
+                    ">Send</button>
+                    <p>GOODLUCK!</p>
+                    </div>
+
+                </form>
+            </div>
+        </div> 
+        
+    </section>
+</body>
+</html>
