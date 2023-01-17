@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <metagge="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css" >
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/3dd9a82482.js" crossorigin="anonymous"></script>
+    <title>JRocks solution</title>
+</head>
+<body>
+    <div class="home-page-container">
+    <header class="bg-navyblue">
+        <nav class=" container flex items-center justify-around md:my-0 ">
+            <!---nav logo-->
+            <div class>
+                <img src="images/JRocks logo.png" class="w-1/4" alt="JRocks logo">
+            </div>
+        
+           <div class="navbars text-white">
+               <ul class=" hidden md:flex space-x-4  text-lg font-serif mx-auto">
+                   <li class=" hover:text-blue-600 ml-4">
+                    <a href="index.html">Home</a>
+                   </li>
+                   <li class=" hover:text-blue-600 ml-4">
+                      <a href="About.html">About</a>
+                   </li>
+                   <li class="hover:text-blue-600 ml-4">
+                      <a href="services/">services</a>
+                   </li>
+                   <li class="mx-8 ">
+                      <a href="contact.html">
+                            <button class="w-full text-white bg-blue-500 px-4 py-2 " > 
+                                contact-us
+                            </button>
+                        </a>
+                   </li>
+               </ul>
+               <!-----hamburger menu-->
+               <button id="menu-btn" class="open block hamburger md:hidden focus:outline-none">
+                <i class="fas fa-bars " aria-hidden="true"></i>
+               </button>
+          
+               
+           </div>
+              <!-----menu for small screens-->
+              <div class="md:hidden ">
+                    <div id="menu" class="absolute  flex flex-col text-white items-center text-center hidden
+                      space-y-6 mt-10 py-8 bg-blue-400 font-bold  left-6 right-6 drop-shadow-md">
+                        <ul>
+                             <li><a class="hover:text-blue-600" href="index.html">Home</a></li>                         
+                             <li><a class="hover:text-blue-600" href="About.html">About</a></li>
+                             <li><a class="hover" href="#">Services</a>
+                           
+                            </li>
+                            <li><a class="hover:text-blue-600" href="contact.html">Contact-Us</a></li>
+                        </ul>
+                    </div>
+              </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <footer>
+        <div class="footer-wrapper bg-navyblue ">
+            <div class="container mx-auto text-white ">
+                <div class="footer-group1">
+                    <div class="text-center py-12 flex flex-col md:flex-row ">
+                        <!-- footer logo -->
+                        <div class="image mx-auto">
+                             <img src="images/JRocks logo.png" class="w-12" alt="JRocks logo">
+                        </div>
+                    <!----contact details-->
+                    <div class="flex flex-col justify-center md:flex-row ">
+                    <div class="address px-4 py-2 md:w-1/4">  
+                        <i class="fa-solid fa-location-dot"></i> 
+                        <a class="hover:text-blue-600" href="https://goo.gl/maps/aGbrBRbct4eivFyV8" target="_blank" rel="noopener">
+                           
+                            28. avenue layout, olagbaga crest,opposite malta, Nigeria.
+                            </a> 
+                    </div>
+                    <div class=" px-4 py-2">
+                        <a class="hover:text-blue-600" href="mailto:judithmanyo2@gmail.com">judithmanyo2@gmail.com</a><i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="phone px-4 py-2">
+                        <p>+234 90 3811 6985
+                            <i class="fas fa-phone"></i>
+                        </p>    
+                    </div>
+                    </div>
+                    <!----social handles-->
+                    <div class="social-handles ">
+                        <ul class="flex flex-col  md:flex-row">
+                            <li class="px-4 hover:text-blue-600" ><a href="https://linkedin.com/in/judith-manyo-ogar">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                    
+                            <li class="px-4 hover:text-blue-600" ><a href="https://twitter.com/judith_ogar">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="px-4 hover:text-blue-600"><a href="https://github.com/Manyo-Rocks">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>  
+                </div>
+                <hr>
+                <div class="footer-group2">
+                    <div class="flex flex-col text-center justify-center md:flex-row">
+                        <a  class="px-4 py-2 hover:text-blue-600" href="/About.html">About JRocks Solution</a>
+                        <a class="px-4 py-2 hover:text-blue-600" href="/contact.html">Become Our Agent<i class="fas fa-user"></i></a>
+                        <a class="px-4 py-2 hover:text-blue-600" href="#">Privacy Policy</a>
+                        <a class="px-4 py-2 hover:text-blue-600" href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
