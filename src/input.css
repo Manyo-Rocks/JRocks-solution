@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwind/base";
+@import "tailwind/components";
+@import "tailwind utilities"; */
+
+/* .hamburger{
+    cursor:pointer;
+    width: 30px;
+    height:30px;
+    transition: all 0.25s;
+    position: relative;
+}
+#menu{
+    z-index:999
+} */
+.dropdown {
+   @apply relative;
+  }
+  
+  .dropdown-content {
+    @apply d-none absolute bg-blue-500 min-w-full p-12 z-0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

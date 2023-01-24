@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html, js}"],
+  content: ["./src/**/*.{html,js}"],
     // ["./src/**/*.{html,js}"],
     theme: {
       screens:{
@@ -21,6 +21,7 @@ module.exports = {
         maxHeight: {
           '128': '32rem',
         }
+        
       },
     },
     plugins: [
