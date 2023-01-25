@@ -16,14 +16,4 @@
 #menu{
     z-index:999
 } */
-.dropdown {
-   @apply relative;
-  }
-  
-  .dropdown-content {
-    @apply d-none absolute bg-blue-500 min-w-full p-12 z-0;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+

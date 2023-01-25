@@ -25,9 +25,18 @@
                    <li class=" hover:text-blue-600 ml-4">
                       <a href="../pages/About.html">About</a>
                    </li>
-                   <li class="hover:text-blue-600 ml-4">
-                      <a href="#">services</a>
-                   </li>
+                   <li class="relative group hover:text-blue-600 ml-4 ">
+                    <a>services</a>
+                    <ul class="absolute   z-40 hidden group-hover:block text-white bg-navyblue p-4">
+                        <li ><a class=" py-2 hover:text-blue-600 " href="./AI.html">Artificial Intelligence</a></li>
+                        <li><a class=" py-2 hover:text-blue-600" href="./e-commerce.html">ecommerce</a></li>
+                        <li><a class=" py-2 hover:text-blue-600" href="./mobileApp.html">App development</a></li>
+                        <li><a class=" py-2 hover:text-blue-600" href="./uxDesign.html">Ui/Ux</a></li>
+                        <li><a class=" py-2 hover:text-blue-600" href="./pathways.html">learning </a></li>
+                        <li><a class=" py-2 hover:text-blue-600" href="./hiring.html">Hiring</a></li>
+                        
+                    </ul>
+                </li>
                    <li class="mx-8 ">
                       <a href="../pages/contact.html">
                             <button class="w-full text-white bg-blue-500 px-4 py-2 " > 
@@ -46,12 +55,21 @@
               <!-----menu for small screens-->
               <div class="md:hidden ">
                     <div id="menu" class="absolute  flex flex-col text-white items-center text-center hidden
-                      space-y-6 mt-10 py-8 bg-blue-400 font-bold  left-6 right-6 drop-shadow-md">
+                      space-y-6 mt-10 py-8 bg-navyblue font-bold  left-6 right-6 drop-shadow-md">
                         <ul>
                              <li><a class="hover:text-blue-600" href="index.html">Home</a></li>                         
                              <li><a class="hover:text-blue-600" href="About.html">About</a></li>
-                             <li><a class="hover" href="#">Services</a>
-                           
+                             <li class="relative group hover:text-blue-600 ml-4 ">
+                                <a>services</a>
+                                <ul class="absolute   z-40 hidden group-hover:block text-white bg-navyblue p-4">
+                                    <li ><a class=" py-2 hover:text-blue-600 " href="./AI.html">Artificial Intelligence</a></li>
+                                    <li><a class=" py-2 hover:text-blue-600" href="./e-commerce.html">ecommerce</a></li>
+                                    <li><a class=" py-2 hover:text-blue-600" href="./mobileApp.html">App development</a></li>
+                                    <li><a class=" py-2 hover:text-blue-600" href="./uxDesign.html">Ui/Ux</a></li>
+                                    <li><a class=" py-2 hover:text-blue-600" href="./pathways.html">learning </a></li>
+                                    <li><a class=" py-2 hover:text-blue-600" href="./hiring.html">Hiring</a></li>
+                                    
+                                </ul>
                             </li>
                             <li><a class="hover:text-blue-600" href="contact.html">Contact-Us</a></li>
                         </ul>
@@ -221,6 +239,6 @@
 
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
