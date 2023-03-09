@@ -10,59 +10,154 @@
 </head>
 <body>
     <div class="home-page-container">
-    <header class="bg-navyblue">
-        <nav class=" container flex items-center justify-around md:my-0 ">
-            <!---nav logo-->
-            <div class>
-                <img src="../images/JRocks logo.png" class="w-1/4" alt="JRocks logo">
+        <header class="bg-navyblue">
+            <nav class=" container flex items-center justify-around md:my-0 ">
+                <!---nav logo-->
+                <div class>
+                    <img src="../images/JRocks logo.png" class="w-1/4" alt="JRocks logo">
+                </div>
+            
+               <div class="navbars text-white">
+                   <ul class=" hidden md:flex space-x-4  text-lg font-serif mx-auto">
+                       <li class=" hover:text-blue-600 ml-4">
+                        <a href="../pages/index.html">Home</a>
+                       </li>
+                       <li class=" hover:text-blue-600 ml-4">
+                          <a href="../pages/About.html">About</a>
+                       </li>
+                       <li class="relative group hover:text-blue-600 ml-4 ">
+                        <a>services</a>
+                        <ul class="absolute   z-40 hidden group-hover:block text-white bg-navyblue p-4">
+                            <li ><a class=" py-2 hover:text-blue-600 " href="./AI.html">Artificial Intelligence</a></li>
+                            <li><a class=" py-2 hover:text-blue-600" href="./e-commerce.html">ecommerce</a></li>
+                            <li><a class=" py-2 hover:text-blue-600" href="./mobileApp.html">App development</a></li>
+                            <li><a class=" py-2 hover:text-blue-600" href="./uxDesign.html">Ui/Ux</a></li>
+                            <li><a class=" py-2 hover:text-blue-600" href="./pathways.html">learning </a></li>
+                            <li><a class=" py-2 hover:text-blue-600" href="./hiring.html">Hiring</a></li>
+                            
+                        </ul>
+                    </li>
+                       <li class="mx-8 ">
+                          <a href="../pages/contact.html">
+                                <button class="w-full text-white bg-blue-500 px-4 py-2 " > 
+                                    contact-us
+                                </button>
+                            </a>
+                       </li>
+                   </ul>
+                   <!-----hamburger menu-->
+                   <button id="menu-btn" class="open block hamburger md:hidden focus:outline-none">
+                    <i class="fas fa-bars " aria-hidden="true"></i>
+                   </button>
+              
+                   
+               </div>
+                  <!-----menu for small screens-->
+                  <div class="md:hidden ">
+                        <div id="menu" class="absolute  flex flex-col text-white items-center text-center hidden
+                          space-y-6 mt-10 py-8 bg-navyblue font-bold  left-6 right-6 drop-shadow-md">
+                            <ul>
+                                 <li><a class="hover:text-blue-600" href="index.html">Home</a></li>                         
+                                 <li><a class="hover:text-blue-600" href="About.html">About</a></li>
+                                 <li class="relative group hover:text-blue-600 ml-4 ">
+                                    <a>services</a>
+                                    <ul class="absolute   z-40 hidden group-hover:block text-white bg-navyblue p-4">
+                                        <li ><a class=" py-2 hover:text-blue-600 " href="./AI.html">Artificial Intelligence</a></li>
+                                        <li><a class=" py-2 hover:text-blue-600" href="./e-commerce.html">ecommerce</a></li>
+                                        <li><a class=" py-2 hover:text-blue-600" href="./mobileApp.html">App development</a></li>
+                                        <li><a class=" py-2 hover:text-blue-600" href="./uxDesign.html">Ui/Ux</a></li>
+                                        <li><a class=" py-2 hover:text-blue-600" href="./pathways.html">learning </a></li>
+                                        <li><a class=" py-2 hover:text-blue-600" href="./hiring.html">Hiring</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a class="hover:text-blue-600" href="contact.html">Contact-Us</a></li>
+                            </ul>
+                        </div>
+                  </div>
+            </nav>
+        </header>
+
+    <section class="UI/UX Design">
+        <div class="mt-16">
+            <div class="title p-10">
+                <h1 class="text-4xl text-gray mt-4 text-center">We Emphasize the value of good Design </h1>
+                <div class="w-24 mt-4 mb-4 text-blue-500 mx-auto">
+                    <p class="border-b-4"></p>
+                </div>
             </div>
-        
-           <div class="navbars text-white">
-               <ul class=" hidden md:flex space-x-4  text-lg font-serif mx-auto">
-                   <li class=" hover:text-blue-600 ml-4">
-                    <a href="../pages/index.html">Home</a>
-                   </li>
-                   <li class=" hover:text-blue-600 ml-4">
-                      <a href="../pages/About.html">About</a>
-                   </li>
-                   <li class="hover:text-blue-600 ml-4">
-                      <a href="#">services</a>
-                   </li>
-                   <li class="mx-8 ">
-                      <a href="../pages/contact.html">
-                            <button class="w-full text-white bg-blue-500 px-4 py-2 " > 
-                                contact-us
-                            </button>
-                        </a>
-                   </li>
-               </ul>
-               <!-----hamburger menu-->
-               <button id="menu-btn" class="open block hamburger md:hidden focus:outline-none">
-                <i class="fas fa-bars " aria-hidden="true"></i>
-               </button>
-          
-               
-           </div>
-              <!-----menu for small screens-->
-              <div class="md:hidden ">
-                    <div id="menu" class="absolute  flex flex-col text-white items-center text-center hidden
-                      space-y-6 mt-10 py-8 bg-blue-400 font-bold  left-6 right-6 drop-shadow-md">
-                        <ul>
-                             <li><a class="hover:text-blue-600" href="index.html">Home</a></li>                         
-                             <li><a class="hover:text-blue-600" href="About.html">About</a></li>
-                             <li><a class="hover" href="#">Services</a>
-                           
-                            </li>
-                            <li><a class="hover:text-blue-600" href="contact.html">Contact-Us</a></li>
+            <div class="mx-10 my-8">
+                <p class="text-2xl md:mx-20 text-center p-4">We follow Design thinking problem-solving approach that emphasizes empathy with our users, iteration, 
+                    and creative solutions
+                </p>
+                <p class="text-2xl md:mx-20 text-center p-4" >We engage and observe our clients to have a clear understanding of their needs and expectations. The best part is our brainstorming section 
+                    were we come up with genius and creative solutions. We bring your ideas to life!.
+
+                </p>
+                <div class="img ">
+                     <img class="w-3/4 m-auto" src="../images/IN_DEsignthinking_Design-Thinking-2.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="mt-16">
+            <div class="title p-10">
+                <h1 class="text-4xl text-center">Tools & Technology We Use for our UI/UX Design</h1>
+                <div class="w-24 mt-4 mb-4 text-blue-500 mx-auto">
+                    <p class="border-b-4"></p>
+                </div>
+            </div>
+            <div class="tech-languages">
+                <div class="div">
+                    <div class="skills-grp-1 mb-6">
+                        <ul class=" -m-2 flex flex-wrap justify-center text-white items-center">
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Adobe Photoshop</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Sketch</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Figma</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Adobe XD</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Balsamiq</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">InVision</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Axure</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Proto.io </li>
                         </ul>
                     </div>
-              </div>
-        </nav>
-    </header>
+                    <div class="skillls-grp-2">
+                        <ul class=" -m-2 flex flex-wrap justify-center text-white items-center">
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold"> UserTesting</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Hotjar</li>
+                            <li class="m-4 border-solid border-2 bg-blue-500 p-2 font-bold">Google Analytics</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-
-
-
+        </div>
+                <!-- customer care -->
+                <div class=" my-20 py-10 text-center flex flex-col md:flex-row ">
+                    <div class="calls md:w-1/2">
+                        <h1 class="text-4xl">Want To GIve Us a call?</h1>
+                        <div class="img ">
+                            <img src="https://www.transparentpng.com/thumb/telephone/natural-phone-icon-png-9.png" 
+                            class="w-40 mx-auto" alt="natural phone icon png @transparentpng.com">
+                        </div>
+                        <p class="text-2xl">+234-90-3811-6985</p>            
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="hidden md:display" >You can send us a message</p>
+                        <form class=" shadow-2xl p-8 ">
+                            <input type="text" class="form-input p-4 my-4" placeholder="Full Name" required>
+                            <input type="text" class="form-input p-4 my-4" placeholder=" Email" required>
+                            <input type="text" class="form-input p-4 my-4" placeholder=" Phone number" required>
+                            <textarea class="form-input d-block w-full p-8" placeholder="How can we help you?"></textarea>
+                            <div class=" mt-6">
+                                <button class="text-white bg-blue-400 px-4 py-4 text-right shadow-8xl
+                                ">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    </section>
 
 
     <footer>
@@ -125,6 +220,6 @@
 
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
